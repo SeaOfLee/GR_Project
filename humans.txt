@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Lee Richardosn -- Awesome Dude -- @LeeRichFTW (Twitter)
+
+# THANKS
+
+    Lee
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+   Bootstrap 3, jQuery, Modernizr

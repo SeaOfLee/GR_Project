@@ -1,0 +1,77 @@
+.main {
+  width: 960px;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.background {
+  width: 100%;
+  height: 400px;
+  background: url("../img/background_adam.jpg") no-repeat center top;
+  background-size: contain;
+
+}
+
+#family {
+  position: relative;
+  top: 10px;
+}
+
+.container.content {
+  position: relative;
+  top: -355px;
+}
+
+.blueBg {
+  width: 450px;
+  height: 275px;
+  background-image: url("../img/blue_background.png");
+  background-size: cover;
+  position: relative;
+  left: 10px;
+}
+
+
+/* Medium Devices, Desktops */
+@media screen and (max-width:959px) {
+  .main {
+    width: 800px;  
+  }
+
+  .blueBg {
+    width: 365px;
+    height: 230px;
+  }
+
+  .container.content {
+    top: -360px;
+  }
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .main {
+    width: 640px;
+  }
+
+  .container.content {
+    top: -370px;
+  }
+
+  .blueBg {
+    width: 300px;
+    height: 185px;
+  }
+    
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 960px;  
+  }
+  
+}
