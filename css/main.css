@@ -1,3 +1,5 @@
+/* LAYOUT */
+
 .main {
   width: 960px;
   height: 400px;
@@ -22,6 +24,7 @@
 .container.content {
   position: relative;
   top: -355px;
+  width: 100%;
 }
 
 .blueBg {
@@ -36,6 +39,7 @@
 
 /* Medium Devices, Desktops */
 @media screen and (max-width:959px) {
+  
   .main {
     width: 800px;  
   }
@@ -54,6 +58,7 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
   .main {
     width: 640px;
   }
@@ -69,7 +74,9 @@
     
 }
 
+/* Cancel styling for XL screens */
 @media screen and (min-width: 1200px) {
+
   .container {
     width: 960px;  
   }
