@@ -175,6 +175,12 @@ p.offer {
 
   .mbgLogo {
     left: 190px;
+    bottom: 23px;
+    height: 56px;
+  }
+
+  .moneyBack {
+    top: 21px;
   }
 
 /* TYPOGRAPHY STYLING */
@@ -231,9 +237,65 @@ p.offer {
     height: 185px;
   }
 
-/* TYPOGRAPHY STYLING */
+/* IMAGE STYLING */
+  .moneyBack {
+    top: 12px;
+  }
 
+  .mbgLogo {
+    left: 117px;
+    bottom: 24px;
+    height: 50px;
+  }
+
+/* TYPOGRAPHY STYLING */
+  h4 {
+    font-size: 13px;
+  }
+
+  .quote {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .adam {
+    font-size: 11px;
+  }
+
+  .orderBtn {
+    font-size: 15px;
+  }
+
+  h3.offer {
+    font-size: 19px;
+    margin-top: 10px;
+  }
+
+  h4.offer {
+    font-size: 15px;
+    margin-bottom: 2px;
+  }
   
+  p.offer {
+    font-size: 9px;
+  }
+
+  h4.guaranteeBold {
+    top: -67px;
+    right: 67px;
+  }
+
+  h4.guarantee {
+    bottom: 91px;
+    left: 103px;
+    line-height: 16px;
+  }
+
+  p.ship {
+    bottom: 114px;
+    font-size: 8px;
+    right: 91px;
+  }
 }
 
 /* Cancel styling for XL screens */
