@@ -156,6 +156,7 @@ p.offer {
 
 /* Medium Devices, Desktops */
 @media screen and (max-width:959px) {
+/* LAYOUT */
   
   .main {
     width: 800px;  
@@ -170,6 +171,47 @@ p.offer {
     top: -360px;
   }
 
+/* IMAGE STYLING */
+
+  .mbgLogo {
+    left: 190px;
+  }
+
+/* TYPOGRAPHY STYLING */
+  h4 {
+    font-size: 14px;
+  }
+  .quote {
+    font-size: 23px;
+    margin-top: 10px;
+  }
+
+  .orderBtn {
+    margin-top: 0px;
+  }
+
+  h3.offer {
+    font-size: 21px;
+  }
+
+  h4.offer {
+    font-size: 17px;
+  }
+
+  h4.guaranteeBold {
+    top: -67px;
+    right: 59px;
+  }
+  
+  h4.guarantee {
+    bottom: 92px;
+    left: 122px;
+  }
+
+  p.ship {
+    bottom: 116px;
+    right: 136px;
+  }
 
 }
 
@@ -188,7 +230,10 @@ p.offer {
     width: 300px;
     height: 185px;
   }
-    
+
+/* TYPOGRAPHY STYLING */
+
+  
 }
 
 /* Cancel styling for XL screens */
