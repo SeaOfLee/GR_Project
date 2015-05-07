@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
 /* LAYOUT */
 
 .main {
@@ -13,12 +15,6 @@
   height: 400px;
   background: url("../img/background_adam.jpg") no-repeat center top;
   background-size: contain;
-
-}
-
-#family {
-  position: relative;
-  top: 10px;
 }
 
 .container.content {
@@ -33,7 +29,58 @@
   background-image: url("../img/blue_background.png");
   background-size: cover;
   position: relative;
-  left: 10px;
+  left: 15px;
+}
+
+/* IMAGE STYLING */
+
+#family {
+  position: relative;
+  top: 10px;
+}
+
+.moneyBack {
+  position: relative;
+  top: 2.75rem;
+}
+
+.mbgLogo {
+  height: 60px;
+  position: relative;
+  bottom: 19px;
+  left: 225px;
+}
+
+/* TYPOGRAPHY STYLING */
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "PT Sans", sans-serif;
+  
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h4.guaranteeBold {
+  font-weight: 700;
+  position: relative;
+  top: -69px;
+  right: 92px;
+}
+
+h4.guarantee {
+  position: relative;
+  bottom: 96px;
+  left: 117px;
+}
+
+p.ship {
+  position: relative;
+  bottom: 121px;
+  right: 207px;
+  text-align: right;
+  font-size: 10px;
 }
 
 
@@ -45,7 +92,7 @@
   }
 
   .blueBg {
-    width: 365px;
+    width: 375px;
     height: 230px;
   }
 
